@@ -1,0 +1,114 @@
+[
+  {
+    "id": "app_premium",
+    "name": "App Premium",
+    "description": "Silakan pilih aplikasi premium yang Anda inginkan.",
+    "sub_items": [
+      {
+        "id": "viu_cat",
+        "name": "VIU PREMIUM",
+        "description": "Silakan pilih durasi langganan VIU Premium.",
+        "variations": [
+          {
+            "id": "viu_1mo",
+            "name": "VIU 1 Bulan",
+            "price": 2000,
+            "description": "Akun VIU Premium 1 Bulan (Private)",
+            "filePath": "viu1bulan.txt"
+          },
+          {
+            "id": "viu_3mo",
+            "name": "VIU 3 Bulan",
+            "price": 5000,
+            "description": "Akun VIU Premium 3 Bulan (Private)",
+            "filePath": "viu3bulan.txt"
+          }
+        ]
+      },
+      {
+        "id": "capcut_cat",
+        "name": "CAPCUT PREMIUM",
+        "description": "Silakan pilih paket Capcut Premium.",
+        "variations": [
+          {
+            "id": "cc_28",
+            "name": "Capcut 28 Days",
+            "price": 8000,
+            "description": "Private Account.",
+            "filePath": "cc_28.txt"
+          },
+          {
+            "id": "cc_35",
+            "name": "Capcut 35 Days",
+            "price": 11000,
+            "description": "Private Account.",
+            "filePath": "cc_35.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "script_bots",
+    "name": "Script Bot",
+    "description": "Silakan pilih script bot yang Anda inginkan.",
+    "sub_items": [
+      {
+        "id": "script_cat_cpanel",
+        "name": "SC CPANEL",
+        "description": "Script bot jualan panel.",
+        "variations": [
+          {
+            "id": "script_cpanel_v1",
+            "name": "SCRIPT CPANEL V1",
+            "price": 10000,
+            "description": "Fitur Lengkap",
+            "filePath": "script.zip"
+          }
+        ]
+      },
+      {
+        "id": "scprotectxmd_cat",
+        "name": "SC PROTECTXMD",
+        "description": "Pilih versi Script Auto Order.",
+        "variations": [
+          {
+            "id": "allinone_v1",
+            "name": "V1 NO UPDATE",
+            "price": 20000,
+            "description": "NO UPDATE",
+            "filePath": "ProtectXMd.zip"
+          },
+          {
+            "id": "sao_v2",
+            "name": "V2 FREE UPDATE",
+            "price": 30000,
+            "description": "FREE UPDATE 1X",
+            "filePath": "ProtectXMd.zip"
+          }
+        ]
+      },
+      {
+        "id": "script_auto_order_cat",
+        "name": "SC AUTO ORDER",
+        "description": "Pilih versi Script Auto Order.",
+        "variations": [
+          {
+            "id": "sao_v1",
+            "name": "V1 NO UPDATE",
+            "price": 35000,
+            "description": "NO UPDATE",
+            "filePath": "sao_v1.zip"
+          },
+          {
+            "id": "sao_v2",
+            "name": "V2 FREE UPDATE",
+            "price": 50000,
+            "description": "FREE UPDATE 1X",
+            "filePath": "sao_v2.zip"
+          }
+        ]
+      }
+    ]
+  }
+]
