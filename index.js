@@ -557,21 +557,17 @@ Halo *${me.first_name || ""}* Aku adalah Bot Auto Order, siap membantu anda untu
 🔑 Semua Di Proses Secara Otomatis.*
 
 --- [ Benefit Membeli Disini ] ---
-*♻️ Garansi 15 Hari*
-*🔒 Anti Colong & Rusuh*
+*♻️ Garansi 30 Hari*
+*🔒 Anti Suspend VPS Legal*
 *📉 Server Stabil*
 
 Pilih *📦 Order Panel* Untuk Beli.
-Pilih *🛍️ Order Admin Panel* Untuk Beli.
-Pilih *👑 Order Reseller* Untuk Beli.
 `; // <-- String Selesai di sini
 
   // Kode Keyboard BARU (dengan tombol Free Panel):
   const keyboard = Markup.keyboard([
-    ["📦 Order Panel", "🛍️ Order Admin Panel"], // Baris 1
-    ["👑 Order Reseller", "🛒 Beli Produk Lain"], // Baris 2
-    ["🎁 Free Panel"],                        // Baris 3: Tombol Klaim [BARU]
-    ["📞 Hubungi Customer Service"]             // Baris 4: CS
+    ["📦 Order Panel", "🛍️ Order Admin Panel"],              
+    ["📞 Hubungi Customer Service"]           
   ]).resize();
 
   const startImage = path.join(__dirname, "src", "media", "start.webp");
