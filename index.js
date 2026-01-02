@@ -566,7 +566,7 @@ Pilih *📦 Order Panel* Untuk Beli.
 
   // Kode Keyboard BARU (dengan tombol Free Panel):
   const keyboard = Markup.keyboard([
-    ["📦 Order Panel", "🛍️ Order Admin Panel"],              
+    ["📦 Order Panel"],              
     ["📞 Hubungi Customer Service"]           
   ]).resize();
 
