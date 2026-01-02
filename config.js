@@ -16,7 +16,7 @@ const config = {
 // UTAMA
 //▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰//
 
-  BOT_TOKEN: "7486385374:AAEwNwweDqRjsSwYA0_lkDQWiZCFqQRG5t8",
+  BOT_TOKEN: "8581665920:AAFj6taNZZNbWC5Y0JxlTRrRwsrKDY8FFdQ",
   OWNER_ID: "5894696119",
   urladmin: "https://t.me/sipicung",
   urlchannel: "https://t.me/tokopicung",
