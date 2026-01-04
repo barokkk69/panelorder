@@ -553,13 +553,13 @@ Halo *${me.first_name || ""}* Aku adalah Bot Auto Order, siap membantu anda untu
 ┌ 🤖 *AUTO ORDER PANEL*
 └─ *Pterodactyl Server*
 
-*📊 Panel - Reseller - Admin Panel.
-🔑 Semua Di Proses Secara Otomatis.*
+*📊 Panel Anti Suspend.*
+*🔑 Legal VPS AMD EPYC 7452*
 
 --- [ Benefit Membeli Disini ] ---
 *♻️ Garansi 30 Hari*
-*🔒 Anti Suspend VPS Legal*
-*📉 Server Stabil*
+*🔒 Ada Harga Ada Kualitas*
+*📉 Server Stabil & Bisa Perpanjang*
 
 Pilih *📦 Order Panel* Untuk Beli.
 `; // <-- String Selesai di sini
