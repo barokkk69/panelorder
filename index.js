@@ -871,17 +871,20 @@ Mohon simpan baik-baik.
 📆 <b>Tanggal :</b> ${new Date().toLocaleDateString()}
 `, { parse_mode: 'HTML' });
             
-                    // 9. Kirim Notif ke Admin Group
-                    await bot.telegram.sendMessage(-1001864324191, // ID Group Log
+                    // 9. Kirim Notif ke Admin Group/Channel
+            // [DIPERBAIKI] Menggunakan config.CHANNEL_ID agar masuk ke @tokopicung
+            await bot.telegram.sendMessage(config.CHANNEL_ID, 
 `<b>PEMBELIAN PANEL SUKSES (ORKUT)</b> ✅
 
 Ref: <code>${reff}</code>
-User: @${ctx.from.username || "tanpa_username"} (ID: ${ctx.from.id})
-Total Bayar: Rp${totalBayar}
+User: @${ctx.from.username || "tanpa_username"} (ID: <code>${ctx.from.id}</code>)
+Total Bayar: Rp${new Intl.NumberFormat('id-ID').format(totalBayar)}
 ------------------------------------------
 • Produk : Panel ${product.name}
-• Username : ${account.username}
-• RAM : ${product.ram} MB`, { parse_mode: 'HTML' });
+• Username : <code>${account.username}</code>
+• RAM : ${product.ram} MB`, { parse_mode: 'HTML' }).catch(err => {
+    console.log("Gagal kirim notif ke channel:", err.message);
+});
                 
                 } // End if Paid
 
