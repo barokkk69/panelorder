@@ -18,6 +18,8 @@ const config = {
 
   BOT_TOKEN: "8581665920:AAFj6taNZZNbWC5Y0JxlTRrRwsrKDY8FFdQ",
   OWNER_ID: "5894696119",
+  // [PERBAIKAN] Tambahkan baris ini agar notifikasi masuk
+  CHANNEL_ID: "@tokopicung",
   ADMIN_ID: "5894696119", // Tambahan: ID untuk terima notif error/transaksi
   urladmin: "https://t.me/sipicung",
   urlchannel: "https://t.me/tokopicung",
