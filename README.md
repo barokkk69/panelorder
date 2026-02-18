@@ -1,4 +1,4 @@
-# Nexus Telegram Bot
+# Nexus Telegram Botg
 
 This project is a complete starting point for a Telegram bot to sell Pterodactyl panels automatically.
 
